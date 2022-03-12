@@ -1,0 +1,411 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  11/Mar/2022  19:23:41
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Exe\20220306_Timer_Test_1.out
+#    Map file     =  
+#        G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\List\20220306_Timer_Test_1.map
+#    Command line =  
+#        -f C:\Users\hamad\AppData\Local\Temp\EW3618.tmp ("G:\Faculty Of
+#        Engineering\4th Communication\Graduation Project\OneDrive - Alexandria
+#        University\Team 7\Resources\Courses\MOOC - STM32CubeMX and STM32Cube
+#        HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\gpio.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\main.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\startup_stm32f103xb.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_cortex.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_dma.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_exti.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_flash.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_flash_ex.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_gpio.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_gpio_ex.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_msp.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_pwr.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_rcc.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_rcc_ex.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_tim.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_hal_tim_ex.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\stm32f1xx_it.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\system_stm32f1xx.o"
+#        "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj\tim.o"
+#        --no_out_extension -o "G:\Faculty Of Engineering\4th
+#        Communication\Graduation Project\OneDrive - Alexandria University\Team
+#        7\Resources\Courses\MOOC - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Exe\20220306_Timer_Test_1.out"
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\List\20220306_Timer_Test_1.map"
+#        --config "G:\Faculty Of Engineering\4th Communication\Graduation
+#        Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC
+#        - STM32CubeMX and STM32Cube HAL
+#        basics\Projects\20220306_Timer_Test_1\EWARM/stm32f103xb_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x801'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'4fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                       0xec
+  .intvec            ro code   0x800'0000   0xec  startup_stm32f103xb.o [1]
+                             - 0x800'00ec   0xec
+
+"P1":                                      0xee5
+  .text              ro code   0x800'00ec  0x4f2  stm32f1xx_hal_rcc.o [1]
+  .text              ro code   0x800'05e0    0xc  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'05ec   0x40  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'062c    0x6  ABImemclr4.o [3]
+  .text              ro code   0x800'0634  0x1bc  stm32f1xx_hal_gpio.o [1]
+  .text              ro code   0x800'07f0   0xac  stm32f1xx_hal_cortex.o [1]
+  .text              ro code   0x800'089c   0x32  ABImemset48.o [3]
+  .text              ro code   0x800'08d0  0x250  stm32f1xx_hal_tim.o [1]
+  .text              ro code   0x800'0b20   0xd8  tim.o [1]
+  .text              ro code   0x800'0bf8   0xb6  main.o [1]
+  .text              ro code   0x800'0cb0   0x64  stm32f1xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'0d14   0x24  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'0d38   0x90  gpio.o [1]
+  .text              ro code   0x800'0dc8   0x44  stm32f1xx_hal_msp.o [1]
+  .text              ro code   0x800'0e0c   0x38  packbits_init_single.o [3]
+  .text              ro code   0x800'0e44   0x28  data_init.o [3]
+  .iar.init_table    const     0x800'0e6c   0x10  - Linker created -
+  .text              ro code   0x800'0e7c   0x1e  cmain.o [3]
+  .text              ro code   0x800'0e9a    0x4  low_level_init.o [2]
+  .text              ro code   0x800'0e9e    0x4  exit.o [2]
+  .text              ro code   0x800'0ea4    0xa  cexit.o [3]
+  .text              ro code   0x800'0eb0   0x14  exit.o [4]
+  .text              ro code   0x800'0ec4   0x14  stm32f1xx_it.o [1]
+  .text              ro code   0x800'0ed8   0x10  stm32f1xx_hal.o [1]
+  .text              ro code   0x800'0ee8   0x14  system_stm32f1xx.o [1]
+  .text              ro code   0x800'0efc   0x10  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f0c    0xc  cstartup_M.o [3]
+  .text              ro code   0x800'0f18    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f1c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f20    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f24    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f28    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f2c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f30    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f34    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f38    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f3c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f40    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f44    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f48    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f4c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f50    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f54    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f58    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f5c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f60    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f64    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f68    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f6c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f70    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f74    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f78    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f7c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f80    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f84    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f88    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f8c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f90    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f94    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f98    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0f9c    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fa0    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fa4    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fa8    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fac    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fb0    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fb4    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fb8    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fbc    0x4  startup_stm32f103xb.o [1]
+  .text              ro code   0x800'0fc0    0x4  startup_stm32f103xb.o [1]
+  .rodata            const     0x800'0fc4    0x0  packbits_init_single.o [3]
+  Initializer bytes  const     0x800'0fc4    0xd  <for P2-1>
+                             - 0x800'0fd1  0xee5
+
+"P2", part 1 of 2:                          0x58
+  P2-1                        0x2000'0000   0x58  <Init block>
+    .data            inited   0x2000'0000    0xc  stm32f1xx_hal.o [1]
+    .data            inited   0x2000'000c    0x4  system_stm32f1xx.o [1]
+    .bss             inited   0x2000'0010   0x48  tim.o [1]
+                            - 0x2000'0058   0x58
+
+"P2", part 2 of 2:                         0x400
+  CSTACK                      0x2000'0058  0x400  <Block>
+    CSTACK           uninit   0x2000'0058  0x400  <Block tail>
+                            - 0x2000'0458  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0fd1   0x801'ffff  0x1'f02f
+  0x2000'0458  0x2000'4fff    0x4ba8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xd (14% of destination):
+           0x800'0fc4   0xd
+    1 destination range, total size 0x58:
+          0x2000'0000  0x58
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+G:\Faculty Of Engineering\4th Communication\Graduation Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC - STM32CubeMX and STM32Cube HAL basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj: [1]
+    gpio.o                      144
+    main.o                      182
+    startup_stm32f103xb.o       424
+    stm32f1xx_hal.o             128        1       12
+    stm32f1xx_hal_cortex.o      172
+    stm32f1xx_hal_gpio.o        444
+    stm32f1xx_hal_msp.o          68
+    stm32f1xx_hal_rcc.o       1 266
+    stm32f1xx_hal_tim.o         592
+    stm32f1xx_hal_tim_ex.o      100
+    stm32f1xx_it.o               20
+    system_stm32f1xx.o           20        1        4
+    tim.o                       216       11       72
+    -------------------------------------------------
+    Total:                    3 776       13       88
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [3]
+    ABImemclr4.o                  6
+    ABImemset48.o                50
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       56
+    -------------------------------------------------
+    Total:                      204
+
+shb_l.a: [4]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         12
+    Linker created                        16    1 024
+-----------------------------------------------------
+    Grand Total:              4 020       29    1 112
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'0e6c          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'0e7c          --   Gb  - Linker created -
+?main                    0x800'0e7d         Code  Gb  cmain.o [3]
+AHBPrescTable            0x800'0eec   0x10  Data  Gb  system_stm32f1xx.o [1]
+BusFault_Handler         0x800'0ecb    0x2  Code  Gb  stm32f1xx_it.o [1]
+CSTACK$$Base            0x2000'0058          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0458          --   Gb  - Linker created -
+DebugMon_Handler         0x800'0ed1    0x2  Code  Gb  stm32f1xx_it.o [1]
+Error_Handler            0x800'0cab    0x4  Code  Gb  main.o [1]
+HAL_GPIO_Init            0x800'0635  0x180  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'07b5    0x8  Code  Gb  stm32f1xx_hal_gpio.o [1]
+HAL_GetTick              0x800'05e1    0xc  Code  Wk  stm32f1xx_hal.o [1]
+HAL_IncTick              0x800'0ed9   0x10  Code  Wk  stm32f1xx_hal.o [1]
+HAL_Init                 0x800'0d15   0x20  Code  Gb  stm32f1xx_hal.o [1]
+HAL_InitTick             0x800'05ed   0x40  Code  Wk  stm32f1xx_hal.o [1]
+HAL_MspInit              0x800'0dc9   0x44  Code  Gb  stm32f1xx_hal_msp.o [1]
+HAL_NVIC_SetPriority     0x800'0825   0x3a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'080b   0x1a  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_RCC_ClockConfig      0x800'040d   0xf4  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'0561   0x3a  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPLLMULFactorTable
+                         0x800'05cc   0x10  Data  Lc  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq::aPredivFactorTable
+                         0x800'05dc    0x2  Data  Lc  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_MCOConfig        0x800'0515   0x4a  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'00ed  0x318  Code  Gb  stm32f1xx_hal_rcc.o [1]
+HAL_SYSTICK_Config       0x800'085f   0x28  Code  Gb  stm32f1xx_hal_cortex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'0cb1   0x56  Code  Gb  stm32f1xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init        0x800'08d1   0x1a  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit     0x800'0b93   0x52  Code  Gb  tim.o [1]
+HAL_TIM_Base_Start_IT    0x800'08eb   0x5c  Code  Gb  stm32f1xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                         0x800'0989   0x90  Code  Gb  stm32f1xx_hal_tim.o [1]
+HardFault_Handler        0x800'0ec7    0x2  Code  Gb  stm32f1xx_it.o [1]
+MX_GPIO_Init             0x800'0d39   0x84  Code  Gb  gpio.o [1]
+MX_TIM2_Init             0x800'0b21   0x72  Code  Gb  tim.o [1]
+MemManage_Handler        0x800'0ec9    0x2  Code  Gb  stm32f1xx_it.o [1]
+NMI_Handler              0x800'0ec5    0x2  Code  Gb  stm32f1xx_it.o [1]
+PendSV_Handler           0x800'0ed3    0x2  Code  Gb  stm32f1xx_it.o [1]
+Region$$Table$$Base      0x800'0e6c          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'0e7c          --   Gb  - Linker created -
+SVC_Handler              0x800'0ecf    0x2  Code  Gb  stm32f1xx_it.o [1]
+SysTick_Handler          0x800'0ed5    0x4  Code  Gb  stm32f1xx_it.o [1]
+SystemClock_Config       0x800'0c41   0x6a  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'000c    0x4  Data  Gb  system_stm32f1xx.o [1]
+SystemInit               0x800'0ee9    0x2  Code  Gb  system_stm32f1xx.o [1]
+TIM_Base_SetConfig       0x800'0a43   0x5e  Code  Gb  stm32f1xx_hal_tim.o [1]
+TIM_ETR_SetConfig        0x800'0b07   0x14  Code  Gb  stm32f1xx_hal_tim.o [1]
+TIM_ITRx_SetConfig       0x800'0af7   0x10  Code  Lc  stm32f1xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                         0x800'0ab5   0x1e  Code  Lc  stm32f1xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                         0x800'0ad3   0x24  Code  Lc  stm32f1xx_hal_tim.o [1]
+UsageFault_Handler       0x800'0ecd    0x2  Code  Gb  stm32f1xx_it.o [1]
+__NVIC_SetPriority       0x800'07f1   0x1a  Code  Lc  stm32f1xx_hal_cortex.o [1]
+__aeabi_memclr4          0x800'062d         Code  Gb  ABImemclr4.o [3]
+__cmain                  0x800'0e7d         Code  Gb  cmain.o [3]
+__exit                   0x800'0eb1   0x14  Code  Gb  exit.o [4]
+__iar_Memset4_word       0x800'089d         Code  Gb  ABImemset48.o [3]
+__iar_Memset8_word       0x800'089d         Code  Gb  ABImemset48.o [3]
+__iar_data_init3         0x800'0e45   0x28  Code  Gb  data_init.o [3]
+__iar_packbits_init_single3
+                         0x800'0e0d   0x38  Code  Gb  packbits_init_single.o [3]
+__iar_program_start      0x800'0f0d         Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'0e9b    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f103xb.o [1]
+_call_main               0x800'0e89         Code  Gb  cmain.o [3]
+_exit                    0x800'0ea5         Code  Gb  cexit.o [3]
+_main                    0x800'0e97         Code  Gb  cmain.o [3]
+exit                     0x800'0e9f    0x4  Code  Gb  exit.o [2]
+htim2                   0x2000'0010   0x48  Data  Gb  tim.o [1]
+main                     0x800'0bf9   0x3a  Code  Gb  main.o [1]
+uwTick                  0x2000'0004    0x4  Data  Gb  stm32f1xx_hal.o [1]
+uwTickFreq              0x2000'0000    0x1  Data  Gb  stm32f1xx_hal.o [1]
+uwTickPrio              0x2000'0008    0x4  Data  Gb  stm32f1xx_hal.o [1]
+
+
+[1] = G:\Faculty Of Engineering\4th Communication\Graduation Project\OneDrive - Alexandria University\Team 7\Resources\Courses\MOOC - STM32CubeMX and STM32Cube HAL basics\Projects\20220306_Timer_Test_1\EWARM\20220306_Timer_Test_1\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+  4 020 bytes of readonly  code memory
+     29 bytes of readonly  data memory
+  1 112 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
