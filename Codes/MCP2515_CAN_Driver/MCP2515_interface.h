@@ -27,7 +27,9 @@
 
 typedef enum MCP_ERROR_entypedef {
 	No_ERR,
-	ERR_INT
+	ERR_INT,
+	ERR_Read,
+	ERR_Write
 } MCP_ERR_entypedef;
 
 typedef enum MCP_TXBnumData{
