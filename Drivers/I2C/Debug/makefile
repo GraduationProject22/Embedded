@@ -1,6 +1,6 @@
 ################################################################################
 # Automatically-generated file. Do not edit!
-# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+# Toolchain: GNU Tools for STM32 (9-2020-q2-update)
 ################################################################################
 
 -include ../makefile.init
@@ -43,14 +43,17 @@ BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ART
 EXECUTABLES += \
 i2c\ test1.elf \
 
-MAP_FILES += \
-i2c\ test1.map \
-
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
 i2c\ test1.list \
+
+OBJCOPY_HEX += \
+i2c\ test1.hex \
+
+OBJCOPY_BIN += \
+i2c\ test1.bin \
 
 
 # All Target
@@ -60,8 +63,8 @@ all: main-build
 main-build: i2c\ test1.elf secondary-outputs
 
 # Tool invocations
-i2c\ test1.elf i2c\ test1.map: $(OBJS) $(USER_OBJS) E:\engineering_moaaz\Dropbox\OMEGA\ tasks\GRADUATION\ PROJECT\I2C\ TASK\i2c\ test\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "i2c test1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"E:\engineering_moaaz\Dropbox\OMEGA tasks\GRADUATION PROJECT\I2C TASK\i2c test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="i2c test1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+i2c\ test1.elf: $(OBJS) $(USER_OBJS) D:\Study\4th\GP\Github\Embedded\Drivers\I2C\STM32F103C8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "i2c test1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"D:\Study\4th\GP\Github\Embedded\Drivers\I2C\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="i2c test1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -75,12 +78,22 @@ i2c\ test1.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
+i2c\ test1.hex: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O ihex $(EXECUTABLES) "i2c test1.hex"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+i2c\ test1.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "i2c test1.bin"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
-	-$(RM) default.size.stdout i2c\ test1.elf i2c\ test1.list i2c\ test1.map i2c\\ test1.elf
+	-$(RM) default.size.stdout i2c\ test1.bin i2c\ test1.elf i2c\ test1.hex i2c\ test1.list i2c\\ test1.elf
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_HEX) $(OBJCOPY_BIN)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'
